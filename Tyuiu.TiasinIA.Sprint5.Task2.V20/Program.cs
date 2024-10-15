@@ -6,7 +6,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task2.V20
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #5 | Выполнила: Тясин И. А. | АСОиУб-24-1";
+            Console.Title = "Спринт #5 | Выполнил: Тясин И. А. | АСОиУб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
