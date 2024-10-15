@@ -33,7 +33,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task2.V20.Lib
                     }
                 }
             }
-            string str = " ";
+            string str = "";
 
             for (int i = 0; i < rows; ++i)
             {
@@ -41,7 +41,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task2.V20.Lib
                 {
                     if (j != colums - 1)
                     {
-                        str = str + matrix[i, j] + "; ";
+                        str = str + matrix[i, j] + ";";
                     }
                     else
                     {
@@ -56,7 +56,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task2.V20.Lib
                 {
                     File.AppendAllText(path, str);
                 }
-                str = " ";
+                str = "";
             }
             return path;
 
