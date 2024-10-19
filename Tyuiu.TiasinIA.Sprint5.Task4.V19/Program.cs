@@ -25,7 +25,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task4.V19
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = Path.Combine(new string[] { Path.GetTempPath(), "InPutDataFileTask4V0.txt" });
+            string path = Path.Combine(new string[] { Path.GetTempPath(), "InPutDataFileTask4V19.txt" });
 
 
             
