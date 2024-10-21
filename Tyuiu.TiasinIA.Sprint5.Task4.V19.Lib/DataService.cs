@@ -22,9 +22,9 @@ namespace Tyuiu.TiasinIA.Sprint5.Task4.V19.Lib
                 content = content.Replace(',', '.');
             }
 
-            double y = Math.Round(Math.Pow(Convert.ToDouble(content) / Math.Cos(Convert.ToDouble(content)), 2), 3);
+            double y = Math.Round(Math.Pow(x / Math.Cos(x), 2), 3);
 
-            return Math.Round(y, 3);
+            return y;
         }
     }
 }
