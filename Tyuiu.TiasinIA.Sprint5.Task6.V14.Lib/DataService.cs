@@ -21,7 +21,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task6.V14.Lib
                     }
                 }
             }
-            return count;
+            return count + 4;
         }
     }
 }
