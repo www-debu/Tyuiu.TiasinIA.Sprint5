@@ -6,35 +6,37 @@ namespace Tyuiu.TiasinIA.Sprint5.Task5.V7.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            int res = 1;
             using (StreamReader reader = new StreamReader(path))
             {
+                List<double> positiveNumbers = new List<double>();
+
                 string line;
+                double res = 1;
+
                 while ((line = reader.ReadLine()) != null)
                 {
-                    int value = Convert.ToInt32(line);
-                    if (value > 1)
+
+                    var values = line.Split(new[] { ' ', ',', ';', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                    foreach (var value in values)
                     {
-                        for (int i = 2; i < value; i++)
+                        if (double.TryParse(value, out double number) && number > 0)
                         {
-                            if (value % i == 0)
-                            {
-                                for (int j = 1; j < value; j++)
-                                {
-                                    res = res * i;
-                                }
-
-                            }
+                            positiveNumbers.Add(number);
+                            
                         }
+                        break;
                     }
-                    else
+          
+                    for (int i = 1; i <= positiveNumbers.Count; i++)
                     {
-                        res = res;
+                        res *= i;
+                       
                     }
-
                 }
+                return Math.Round(res, 3);
             }
-            return res;
         }
     }
 }
