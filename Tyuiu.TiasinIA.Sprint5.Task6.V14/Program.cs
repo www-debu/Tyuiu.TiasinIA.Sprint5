@@ -17,9 +17,9 @@ namespace Tyuiu.TiasinIA.Sprint5.Task6.V14
             Console.WriteLine("# Выполнил Тясин Илья Александрович | АСОиУб-24-1                         #");
             Console.WriteLine("###########################################################################");
             Console.WriteLine("# УСЛОВИЕ:                                                                #");
-            Console.WriteLine("# Дан файл С:\DataSprint5\InPutDataFileTask6V14.txt (файл взять из        #");
+            Console.WriteLine(@"# Дан файл С:\DataSprint5\InPutDataFileTask6V14.txt (файл взять из        #");
             Console.WriteLine("# архива согласно вашему варианту. Создать папку в ручную                 #");
-            Console.WriteLine("# С:\DataSprint5\ и скопировать в неё файл) в котором есть набор          #");
+            Console.WriteLine(@"# С:\DataSprint5\ и скопировать в неё файл) в котором есть набор          #");
             Console.WriteLine("# символьных данных. Найти количество знаков препинания в заданной строке.#");
             Console.WriteLine("###########################################################################");
             Console.WriteLine("# ИСХОДНЫЕ ДАННЫЕ:                                                        #");
