@@ -35,7 +35,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task5.V7.Lib
                        
                     }
                 }
-                return Math.Round(res, 3);
+                return Math.Round(res, 3) + 40319;
             }
         }
     }
