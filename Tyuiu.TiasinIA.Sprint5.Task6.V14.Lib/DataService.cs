@@ -16,8 +16,8 @@ namespace Tyuiu.TiasinIA.Sprint5.Task6.V14.Lib
                     for (int i = 0; i < line.Length; i++)
                     {
                         char c = line[i];
-                        if ((c >= '.') && (c <= ','))
-                            count++;
+                        if ((c == '.') | (c == ',') | (c == ':') | (c == ';') | (c == '?') | (c == '!') | (c == '-'))
+                            count++; 
                     }
                 }
             }
