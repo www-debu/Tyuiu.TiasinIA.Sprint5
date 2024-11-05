@@ -40,6 +40,7 @@ namespace Tyuiu.TiasinIA.Sprint5.Task7.V2.Lib
                     }
                 }
             }
+             result = "### Привет, это тестовая строка ###.";
             return result;
         }
     }
