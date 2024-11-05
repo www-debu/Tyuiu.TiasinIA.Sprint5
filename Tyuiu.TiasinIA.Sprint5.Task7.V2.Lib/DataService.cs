@@ -22,12 +22,12 @@ namespace Tyuiu.TiasinIA.Sprint5.Task7.V2.Lib
                 {
                     foreach (char c in line)
                     {
-                        if (c >= '1' && c <= '9')
+                        if (c >= '#' && c <= '#')
                         {
                             
-                            result += (char)(c - ('1' - '#'));
+                            result += (char)(c - ('#' - '#'));
                         }
-                        else if (c == '0') 
+                        else if (c == '#') 
                         {
                             result += '#';
                         }
